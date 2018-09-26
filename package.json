@@ -1,0 +1,27 @@
+{
+    "version": "1.0.0",
+    "name": "cordova-plugin-agv-init",
+    "cordova_name": "cordova-plugin-agv-init",
+    "description": "Initialize apple generic version",
+    "author": "tkikuchi2000",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tkikuchi2000/cordova-plugin-agv-init.git"
+    },
+    "cordova": {
+        "id": "cordova-plugin-agv-init",
+        "platforms": [
+            "ios"
+        ]
+    },
+    "issue": "https://github.com/tkikuchi2000/cordova-plugin-agv-init/issues",
+    "keywords": [
+        "cordova",
+        "cordova-ios",
+        "agv"
+    ],
+    "dependencies": {
+        "xcode": "^1.0.0"
+    }
+}

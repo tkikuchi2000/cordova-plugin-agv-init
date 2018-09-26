@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-plugin-agv-init"
+    version="1.0.0">
+
+    <name>cordova-plugin-agv-init</name>
+    <description>Cordova plugin to initialize apple generic version</description>
+    <author>tkikuchi2000@gmail.com</author>
+
+    <engines>
+        <engine name="cordova" version=">=6.0.0" />
+    </engines>
+
+    <repo>https://github.com/tkikuchi2000/cordova-plugin-agv-init.git</repo>
+    <issue>https://github.com/tkikuchi2000/cordova-plugin-agv-init/issues</issue>
+
+    <keywords>cordova,ios,apple,generic,version,agv</keywords>
+
+    <license>MIT</license>
+ 
+    <!-- ios -->
+    <platform name="ios">
+        <hook src="scripts/init_agv.js" type="after_plugin_install" />
+    </platform>
+</plugin>
